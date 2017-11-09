@@ -25,8 +25,10 @@ describe "centuryFromYear" do
             expect(test1).to eq(2)
             test2 = centuryFromYear(201)
             expect(test2).to eq(3)
-            test3 = centuryFromYear(301)
-            expect(test3).to eq(4)
+            test3 = centuryFromYear(1700)
+            expect(test3).to eq(17)
+            test4 = centuryFromYear(1701)
+            expect(test4).to eq(18)
         end
     end
 end
