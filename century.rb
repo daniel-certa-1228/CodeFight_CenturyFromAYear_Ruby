@@ -1,5 +1,4 @@
 def centuryFromYear(year)
-
     if year == 0
         0
     elsif year.between?(1,100)
@@ -8,6 +7,5 @@ def centuryFromYear(year)
         year = (year/100) + 1
         return year
     end
-    
 end
     
